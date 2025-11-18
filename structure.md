@@ -1,224 +1,240 @@
-# Website-Struktur – `structure.md`
-Technische Übersicht über die Seitenarchitektur und Inhaltsstruktur der Agentur-Website.  
-Die Datei dient Entwicklern als Referenz für Aufbau, Inhalte und logische Beziehungen zwischen den Seiten.
+# Website-Struktur – Aktualisierte Version
+
+Technische und inhaltliche Übersicht über die Seitenarchitektur der Plattform für verkaufbare Webseiten-Themes.
+Diese Version basiert auf den neuen erweiterten Anforderungen.
 
 ---
 
-## 1. Hauptkategorien (Main Navigation)
+# 1. Hauptkategorien (Navigation)
 
-Die Website besteht aus vier zentralen Hauptkategorien:
+Die Plattform besteht aus folgenden zentralen Bereichen:
 
 1. **Startseite**
-2. **Themse**
+2. **Themes**
 3. **Kontakt**
-4. **Rechtliches**
+4. **Rechtliches** (Datenschutz, Impressum, AGB)
 
-> Die Reihenfolge ist nicht fest definiert und kann je nach Layout, UX oder Priorisierung variieren.
+**Optionale Erweiterungen:**
 
-Zusätzliche sinnvolle globale Elemente:
-- Header (mit Navigation)
-- Footer (mit zentralen rechtlichen Informationen)
-- Globale rechtliche Hinweise (z. B. in jeder Fußzeile)
-- Globale Suchleiste (optional)
+* Über uns
+* Blog / Updates
+* Technik & Features
+* Preise
 
 ---
 
-## 2. Startseite
+# 2. Startseite
 
-Die Startseite dient als zentrale Einstiegsseite und Übersicht über alle Kernfunktionen der Website.
+Die Startseite dient als zentraler Einstiegspunkt und Verkaufsfläche für Themes.
 
-### Mindestinhalte:
+## Mindestinhalte:
 
-#### 2.1 Banner / Slider
-- Rotierender Banner mit verschiedenen **Themse-Kategorien**
-- Jede Banner-Szene enthält:
-  - Kurztitel der Kategorie
-  - Themenbeschreibung
-  - **Link zur zugehörigen Themse-Kategorie**
+### 2.1 Banner / Slider
 
-#### 2.2 Argumente („Warum bei uns kaufen?“)
+* Großes Hero-Slider-Modul
+* Präsentation mehrerer Themes
+* Jede Slide enthält:
+
+  * Titel des Themes oder der Kategorie
+  * Kurze Beschreibung
+  * Button zur entsprechenden Kategorie oder Theme-Seite
+
+### 2.2 Argumente / Vorteile
+
 Beispiele:
-- Schnell
-- Günstig
-- Professionell
-- Personalisierte Anpassung
-- Keine technischen Kenntnisse erforderlich  
-(Argumente erweiterbar)
 
-#### 2.3 „Wie es funktioniert“-Erklärung
-- Auswahl eines Themse
-- Personalisierung durch uns:
-  - Kunde sendet Daten/Wünsche über das Kontaktformular
-  - Anpassung erfolgt durch unser Team
-- Alternative: Individuelle Website ohne Vorlage
+* Schnell
+* Professionell
+* Günstig
+* Personalisierbar
+* Responsive Design
+* SEO-optimiert
+* Modern
+* DSGVO-konform
 
-#### 2.4 Rezensionen
-- Kundenbewertungen
-- Sterne-Bewertungen
-- Optional: Filterbar nach Kategorie
+### 2.3 Ablauf / Wie es funktioniert
 
-#### 2.5 Rechtliches
-- Kurze Hinweise
-- Links auf die rechtlichen Unterseiten
+* Kunde wählt ein Theme aus **oder** fordert eine individuelle Webseite an.
+* Über Kontaktformular sendet der Kunde Daten, Texte, Bilder, Logos, Farben usw.
+* Die Plattform / KI erstellt die personalisierte Webseite.
 
----
+### 2.4 Kundenrezensionen
 
-## 3. Themse – Hauptseite
+* Sternebewertungen & Erfahrungsberichte
 
-Die Themse-Hauptseite listet **alle Kategorien** und bietet Orientierung.
+### 2.5 Rechtliches
 
-### Mindestinhalte:
-
-#### 3.1 Suchfunktion
-- Freitextsuche
-- Filter nach Kategorien möglich  
-  Beispiele:
-  - Friseur
-  - Café
-  - Restaurant
-  - Bauunternehmen  
-  (weitere Kategorien möglich)
-
-#### 3.2 Vorgestellte Kategorien
-- Vorschau-Kacheln beliebter Themse-Bereiche
-- Bild + Kurzbeschreibung + Link zur Kategorie
-
-#### 3.3 Rechtliches
-- Kurze Hinweise
-- Link zu vollständigen rechtlichen Seiten
+* Kurze Hinweise
+* Links zu den vollständigen Rechtstexten
 
 ---
 
-## 4. Themse-Kategorie (z. B. „Friseur“, „Restaurant“)
+# 3. Themes – Hauptseite
 
-Diese Seite zeigt alle verfügbaren Themse innerhalb einer Kategorie.
+Zentrale Übersichtsseite für alle verfügbaren Themes.
 
-### Mindestinhalte:
+## Mindestinhalte:
 
-#### 4.1 Themse-Übersicht
-- Mehrere Website-Themse mit:
-  - Titel
-  - Beschreibung
-  - Preis
-  - Vorschau-Bild
-  - Details-Button (führt zur Themse-Detailseite)
+### 3.1 Suchfunktion
 
-#### 4.2 Rezensionen
-- Bewertungen für Themse in dieser Kategorie
-- Optional: Filter nach Thema
+* Keywords (z. B. „Friseur“, „Restaurant“, „Coaching“)
+* Branchenfilter
 
-#### 4.3 Argumente („Warum dieses Themse wählen?“)
-- Vorteile dieser Kategorie (z. B. optimiert für Restaurants, Fokus auf Buchung usw.)
+### 3.2 Beliebte Kategorien
 
-#### 4.4 Häufige Fragen (FAQ)
-- Typische Fragen und passende Antworten  
-  Beispiele:
-  - „Kann ich das Design anpassen lassen?“  
-  - „Wie lange dauert die Umsetzung?“  
-  - „Was kostet die Personalisierung?“
+* Bau / Handwerk
+* Gastronomie
+* Coaching
+* Online-Shop
+* Dienstleistung
+* Gesundheit / Wellness
 
-#### 4.5 „Kein passendes Themse gefunden?“
-- Kontaktformular oder Link dorthin  
-- Möglichkeit, eine individuelle Website erstellen zu lassen
+### 3.3 Rechtliches
+
+* Kleiner Hinweisbereich + Link zu Datenschutz / Impressum
 
 ---
 
-## 5. Einzelnes Themse (Detailseite)
+# 4. Theme-Kategorie-Seite
 
-Seite für ein spezifisches Website-Template.
+Zeigt alle Themes einer spezifischen Kategorie (z. B. „Café“, „Friseur“, „Bauunternehmen“).
 
-### Mindestinhalte:
+## Mindestinhalte:
 
-#### 5.1 Interaktive Vorschau
-- Live-Demo oder simulierte Vorschau
-- Nutzer kann durch das Themse scrollen und navigieren
+### 4.1 Theme-Übersicht
 
-#### 5.2 Preis und Details
-- Preisübersicht
-- Beschreibung des Funktionsumfangs
-- Technische Merkmale
-- Ziel-Use-Cases
+Jedes Theme zeigt:
 
-#### 5.3 Ablauf „Was muss ich tun?“
-- Kontaktaufnahme
-- Bereitstellung benötigter Daten:
-  - Texte
-  - Bilder
-  - Öffnungszeiten
-  - Farben/Branding-Wünsche
-- Personalisierungsprozess
+* Titel
+* Preis
+* Kurzbeschreibung
+* Vorschaubild(e)
+* Button: „Details ansehen“
 
-#### 5.4 Link zum Kontakt
-- Button/CTA zum Kontaktformular
+### 4.2 Rezensionen
 
-#### 5.5 Argumente
-- Vorteile des ausgewählten Themse
+* Bewertungen für Themes dieser Kategorie
 
-#### 5.6 Rezensionen
-- Bewertungen spezifisch zu diesem Themse
+### 4.3 Argumente
 
-#### 5.7 Rechtliches
-- Kurze Hinweise + Link zu vollständigem Rechtstext
+* Spezifische Vorteile der Kategorie
 
----
+### 4.4 FAQ
 
-## 6. Kontaktseite
+Typische Fragen zur Kategorie:
 
-Die Kontaktseite dient sowohl der Anfrage für Themse als auch der Übermittlung von personalisierten Daten.
+* Anpassbarkeit
+* Dauer der Umsetzung
+* Inhaltliche Anforderungen
 
-### Mindestinhalte:
+### 4.5 Kein passendes Theme?
 
-#### 6.1 Kontaktformular
-- Name
-- E-Mail
-- Kategorie / Themse-Auswahl
-- Nachricht / Anforderungen / Wünsche
-- Datei-Upload (optional für Bilder, Logos)  
-
-#### 6.2 Häufige Fragen (FAQ)
-- Wiederholung relevanter Fragen (global oder themsebezogen)
-
-#### 6.3 Rechtliches
-- Datenschutz-Hinweis
-- Einverständnis-Checkbox (DSGVO)
-- Links zu Impressum & Datenschutz
+* Kontaktformular oder Link zum Formular
+* Möglichkeit zur individuellen Theme-Anfrage
 
 ---
 
-## 7. Rechtliches (Hauptbereich)
+# 5. Einzelnes Theme (Detailseite)
 
-Umfasst mindestens:
+Detaillierte Seite für ein spezifisches Theme.
 
-- Impressum
-- Datenschutz
-- AGB (falls vorhanden)
-- Widerrufsbelehrung (optional)
-- Cookie-Hinweise
+## Mindestinhalte:
 
-Diese Unterseiten werden global im Footer verlinkt.
+### 5.1 Interaktive Theme-Demo
+
+* Live-Demo der Webseite
+* Nutzer kann scrollen und interagieren
+
+### 5.2 Preis & Beschreibung
+
+* Funktionsumfang
+* Branchen-Empfehlung
+* technische Merkmale
+
+### 5.3 Ablauf der Bestellung
+
+1. Kunde nimmt Kontakt auf.
+2. Kunde liefert:
+
+   * Texte
+   * Bilder
+   * Öffnungszeiten
+   * Farben / Branding
+   * Logo
+3. KI erstellt personalisierte Version.
+
+### 5.4 CTAs
+
+* „Theme kaufen“ / „Kontakt aufnehmen“
+
+### 5.5 Argumente
+
+* Warum genau dieses Theme geeignet ist.
+
+### 5.6 Rezensionen
+
+### 5.7 Rechtliches
+
+* Hinweisbereich + Link zu Datenschutz / AGB
 
 ---
 
-## 8. Erweiterbare Elemente (optional sinnvoll)
+# 6. Kontaktseite
 
-Folgende Inhalte können später ergänzt werden:
+Dient für Anfragen zu Themes und individuellen Projekten.
 
-- Blog / News
-- Preisrechner
-- Angebots-Konfigurator
-- Tutorials / Hilfe-Bereich
-- Kundenportal (Datei-Upload, Projektstatus)
-- Newsletter-Opt-In
-- Statistiken (Verkaufszahlen, meist gewählte Themse)
-- Mehrsprachigkeit
+## Mindestinhalte:
+
+### 6.1 Kontaktformular
+
+* Name
+* E-Mail
+* Auswahl Theme / Kategorie
+* Nachricht / Anforderungen
+* Optional: Datei-Upload
+
+### 6.2 Mini-FAQ
+
+* Typische Kundenfragen
+
+### 6.3 Rechtliches
+
+* Datenschutz-Hinweis
+* Einverständnis-Checkbox
 
 ---
 
-## 9. Technische Hinweise
+# 7. Rechtliches (Hauptbereich)
 
-- Alle Seiten müssen vollständige Navigation + Footer enthalten
-- Keine toten Links (`href="#"`)
-- Jede Kategorie- und Themse-Seite ist modular aufgebaut
-- Einheitliche UI-Komponenten verwenden (Cards, Buttons, Banner)
-- Dateistruktur (Empfehlung):
+Beinhaltet:
 
+* Impressum
+* Datenschutz
+* AGB
+* Widerrufsbelehrung (optional)
+* Cookie-Hinweise
+
+Diese Seiten werden im Footer verlinkt.
+
+---
+
+# 8. Erweiterbare Elemente
+
+Sinnvolle optionale Erweiterungen:
+
+* Blog / Updates
+* Preisübersicht
+* Angebots-Konfigurator
+* Tutorials / Hilfebereich
+* Kundenportal
+* Newsletter
+* Mehrsprachigkeit
+
+---
+
+# 9. Technische Hinweise
+
+* Vollständige Navigation + Footer auf allen Seiten
+* Keine toten Links (`href="#"`)
+* Einheitliche UI-Komponenten (Cards, Buttons, Banner)
+* Klare modulare Dateistruktur
