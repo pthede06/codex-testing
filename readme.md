@@ -1,79 +1,125 @@
-# Webdesign-Agentur – Onepager Website (Grundstruktur)
-# Webdesign-Agentur – Onepager Website
+# Agentur-Website – Technisches Grundgerüst  
+Modulare Website-Struktur für eine professionelle Webdesign-Agentur
 
-Dieses Projekt beschreibt eine **einfach gehaltene, aber saubere Basis-Website** für eine fiktive Webdesign-Agentur.  
-Die Seite soll als Ausgangspunkt dienen und später um zusätzliche Funktionen erweitert werden.
-Eine moderne, statische Onepager-Startseite für eine fiktive Webdesign-Agentur. Die Seite liefert einen schnellen Überblick über Leistungen, Referenzen, Prozessablauf und eine Kontaktmöglichkeit – optimiert für Desktop und mobile Geräte.
+Dieses Repository enthält die technische Basis der **Webdesign-Agentur-Homepage** (`AGENTUR_NAME`).  
+Die Seite dient als Präsentationsplattform für das Geschäftsmodell: Erstellung einfacher, verständlicher Websites für Cafés und lokale Betriebe.  
+Der Fokus liegt auf klar strukturiertem, gut dokumentiertem Code, der technisch wartbar bleibt und professionell wirkt.
 
-> **Wichtig:** Verwende **Platzhalter** anstelle von echten Namen, z.B. `AGENTUR_NAME`, `KUNDEN_NAME`, `STADT_NAME`, `info@agentur-domain.tld`.
-> **Hinweis:** Bitte weiterhin Platzhalter wie `AGENTUR_NAME`, `KUNDEN_NAME`, `STADT_NAME` oder `info@agentur-domain.tld` verwenden und später mit echten Angaben ersetzen.
-
----
-
-## Ziel des Projekts
-
-Erstelle eine **moderne, responsive Onepager-Website** mit folgenden Eigenschaften:
-
-- Darstellung einer Webdesign-Agentur (`AGENTUR_NAME`)
-- Klare Struktur, die sich später leicht erweitern lässt
-- Sauberes, gut kommentiertes HTML, CSS und JavaScript
-- Fokus auf **Lesbarkeit** und **Erweiterbarkeit**
-
----
-## Features
-- Strukturierte Abschnitte: Hero, Leistungen, Referenzen/Portfolio, Prozess, Call-to-Action und Kontaktformular.
-- Responsives Layout mit Flex/Grid, Karten-Design und vertikaler Prozess-Timeline.
-- Mobiles Navigationsmenü mit Hamburger-Button sowie Smooth Scrolling zu Ankern.
-- Klar getrennte Assets-Struktur für Icons und Bilder.
-
-## Technischer Stack
-- **HTML5** für die Seitenstruktur (`index.html`).
-- **CSS3** mit Flexbox/Grid in `css/styles.css` für Layout, Typografie und Komponenten-Styling.
-- **Vanilla JavaScript** in `js/main.js` für Menü-Toggle und sanftes Scrollen.
-- Keine Build-Tools oder Frameworks nötig.
-
-Verwende für die erste Version nur **Basis-Webtechnologien**:
-
-- **HTML5** für die Struktur
-- **CSS3** (gern mit Flexbox/Grid) für Layout & Styling  
-  - Optional: Eine einzelne globale CSS-Datei (`styles.css`)
-- **Vanilla JavaScript** (optional, minimal) für kleine Interaktionen  
-  - z.B. Smooth Scrolling oder mobiles Menü
-
-Keine Frameworks (React, Vue, usw.) in der Grundversion.
+Die README richtet sich an Entwickler und beschreibt Aufbau, Struktur und technische Leitlinien der Agentur-Website.
 
 ---
 
-## Dateistruktur
+## 1. Zielsetzung der Website
 
-Erstelle eine einfache Projektstruktur:
+Die Website ist **nicht** für Kunden, sondern stellt die **eigene Agentur** vor.  
+Sie dient dazu:
 
-## Projektstruktur
+- Leistungen für Cafés & lokale Businesses klar zu kommunizieren  
+- das Geschäftsmodell verständlich zu präsentieren  
+- Module, Preise & Prozessablauf übersichtlich darzustellen  
+- ein professionelles technisches Fundament zu zeigen  
+- Kontakt- und Angebotsanfragen zu ermöglichen  
+
+Die Seite ist **mehrseitig und modular**, nicht als Onepager angelegt.
+
+---
+
+## 2. Technische Anforderungen
+
+Die Agentur-Website folgt folgenden technischen Prinzipien:
+
+- **modulare Seitenstruktur** (jede Unterseite ist separat aufgebaut)
+- **klare, nachvollziehbare Codeorganisation**
+- **HTML/CSS/JS ohne Frameworks**
+- **mobile Optimierung**
+- **voll funktionierende Navigation (keine toten Links)**
+- **leicht erweiterbare Module (z. B. Preise, Portfolio, Team)**
+
+Die Architektur muss repräsentieren, wie Kundenprojekte aufgebaut werden.
+
+---
+
+## 3. Seitenarchitektur
+
+Die Website besteht aus mehreren klar getrennten Seiten:
+
+
+Jede Seite ist semantisch korrekt aufgebaut und kann unabhängig erweitert werden.
+
+---
+
+## 4. Code-Struktur
+
 ```text
 root/
 ├─ index.html
+├─ leistungen.html
+├─ portfolio.html
+├─ prozess.html
+├─ ueber-uns.html
+├─ kontakt.html
+├─ impressum.html
+├─ datenschutz.html
 ├─ css/
-│  └─ styles.css
+│  └─ styles.css      → Haupt-CSS
 ├─ js/
-│  └─ main.js
+│  └─ main.js         → Navigation, mobile Menülogik
 └─ assets/
    ├─ img/
    └─ icons/
-   ├─ img/      # Platzhalter für Bilder
-   └─ icons/    # Platzhalter für Icons
-```
+## 5. Verlinkungsrichtlinien (keine toten Links)
 
-## Nutzung
-1. Repository klonen oder herunterladen.
-2. Öffne `index.html` direkt im Browser oder starte einen lokalen Server (z. B. via VS Code "Live Server").
-3. Scrolle durch die Abschnitte oder nutze die Navigation; auf mobilen Geräten lässt sich das Menü über den Hamburger-Button öffnen/schließen.
+Die Navigation der Agentur-Website muss vollständig funktionieren.  
+Folgende Regeln gelten verbindlich:
 
-## Anpassung
-- Inhalte anpassen: Ersetze Platzhaltertexte in `index.html` durch echte Agentur- und Kundendaten.
-- Bilder/Icons ergänzen: Lege Assets in `assets/img` bzw. `assets/icons` ab und aktualisiere die Verweise.
-- Farben/Typografie ändern: Passe Variablen und Styles in `css/styles.css` an.
+### ✔ Erlaubt:
+- Links zu existierenden HTML-Seiten  
+- Gültige externe Links  
+- Interne Anker **nur**, wenn sie tatsächlich existieren  
 
-## Weiterentwicklung
-- Formular-Handling erweitern (z. B. Backend-Anbindung oder Form-Service).
-- Weitere Unterseiten oder Blog/Case-Study-Seiten hinzufügen.
-- Performance-Optimierungen (Bildkomprimierung, Caching-Strategien) einplanen.
+### ✖ Nicht erlaubt:
+- `href="#"`
+- `href=""`
+- Links zu nicht vorhandenen Dateien  
+- Platzhalter ohne Ziel  
+
+Diese Richtlinie ist zentral, da die Agentur-Website Professionalität demonstrieren soll.
+
+---
+
+## 6. Features der Agentur-Website
+
+- Responsives Layout (Mobile-first)  
+- Klare modulare Seitenstruktur  
+- Mobile Navigation (Hamburger-Menü)  
+- Leistungsdarstellung in flexiblen Komponenten  
+- Prozessbeschreibung (Workflow der Agentur)  
+- Portfolio-Ansicht (Bilder, Referenzen, Case Studies)  
+- Kontaktformular (Frontend; Backend optional)  
+- Konsistentes Designsystem (Farben, Abstände, Typografie)
+
+---
+
+## 7. Technischer Stack
+
+- **HTML5** (semantisch korrekt)  
+- **CSS3** mit Flexbox & Grid  
+- **Vanilla JavaScript** (Navigation, UI-Interaktionen)  
+- Keine Frameworks in der Basisversion  
+- Optional erweiterbar mit Backend oder CMS
+
+---
+
+## 8. Weiterentwicklungsmöglichkeiten
+
+- Dynamischer Preisrechner / Angebotsformular  
+- Blog-/News- oder Case-Study-System  
+- Automatisierte Build-Pipeline (z. B. minify, image optimization)  
+- Templating oder Komponentenstruktur (z. B. via Include-Mechanismen)  
+- Backend-Anbindung für Formulare oder CMS  
+- SEO-Optimierungen  
+- Dark-Mode-Unterstützung  
+- Mehrsprachigkeit (DE/EN)
+
+---
+
