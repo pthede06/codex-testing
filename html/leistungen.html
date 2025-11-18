@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Übersicht aller verfügbaren Themes und Leistungen der Agentur.">
+    <title>Themse & Leistungen – AGENTUR_NAME</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="topbar">
+    <div class="container topbar__content">
+        <div class="logo" aria-label="AGENTUR_NAME">AGENTUR_NAME</div>
+        <nav class="nav" aria-label="Hauptnavigation">
+            <button class="nav__toggle" aria-expanded="false" aria-controls="nav-menu">Menü</button>
+            <ul id="nav-menu" class="nav__list">
+                <li><a class="nav__link" href="index.html">Start</a></li>
+                <li><a class="nav__link" href="leistungen.html">Themse & Leistungen</a></li>
+                <li><a class="nav__link" href="portfolio.html">Portfolio</a></li>
+                <li><a class="nav__link" href="prozess.html">Prozess</a></li>
+                <li><a class="nav__link" href="ueber-uns.html">Über uns</a></li>
+                <li><a class="nav__link" href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+        <a class="btn btn--ghost" href="kontakt.html">Projekt anfragen</a>
+    </div>
+</header>
+
+<main>
+    <section class="page-hero section--muted">
+        <div class="container page-hero__grid">
+            <div>
+                <p class="eyebrow">Themse & Leistungen</p>
+                <h1>Alle Kategorien auf einen Blick.</h1>
+                <p class="lede">Nutzen Sie Suche und Filter, um passende Themes für Gastronomie, Handwerk oder Dienstleistungen zu finden. Jedes Theme lässt sich personalisieren.</p>
+                <div class="page-hero__actions">
+                    <a class="btn" href="portfolio.html">Vorlagen ansehen</a>
+                    <a class="btn btn--ghost" href="kontakt.html">Individuelle Anfrage</a>
+                </div>
+            </div>
+            <div class="hero__card">
+                <p class="stat">12+ Kategorien</p>
+                <p class="caption">Von Café über Bauunternehmen bis hin zu Beratungen.</p>
+                <p class="stat">30+ Module</p>
+                <p class="caption">FAQ, Preisblöcke, Kontakt-CTAs, Buchungslinks und mehr.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container section__header">
+            <p class="eyebrow">Suche</p>
+            <h2>Finden Sie das richtige Theme.</h2>
+            <p class="lede">Freitextsuche, plus Schnellfilter nach Branchen.</p>
+        </div>
+        <div class="container">
+            <form class="form" aria-label="Theme-Suche">
+                <label for="search">Freitext</label>
+                <input id="search" type="search" name="search" placeholder="z. B. Café, Reservierung, Lieferdienst">
+                <div class="chip-group" aria-label="Kategorien">
+                    <span class="chip">Friseur</span>
+                    <span class="chip">Café</span>
+                    <span class="chip">Restaurant</span>
+                    <span class="chip">Bauunternehmen</span>
+                    <span class="chip">Beratung</span>
+                    <span class="chip">Coaching</span>
+                    <span class="chip">Event</span>
+                    <span class="chip">Fitness</span>
+                </div>
+                <div class="form__row">
+                    <span class="card__meta">Filterbar nach Branche und gewünschtem Modul.</span>
+                    <a class="btn btn--ghost" href="portfolio.html">Katalog öffnen</a>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section class="section section--muted">
+        <div class="container section__header">
+            <p class="eyebrow">Vorgestellte Kategorien</p>
+            <h2>Beliebte Theme-Bereiche.</h2>
+            <p class="lede">Starten Sie mit einer Vorschau-Kachel und wechseln Sie zur passenden Kategorie.</p>
+        </div>
+        <div class="container grid grid--3">
+            <article class="card card--image">
+                <div class="card__badge">Gastronomie</div>
+                <h3>Cafés & Restaurants</h3>
+                <p>Menü, Reservierung, Öffnungszeiten, Bewertungen.</p>
+                <div class="card__meta">3 Starter-Themes</div>
+                <a class="btn btn--ghost" href="portfolio.html#gastronomie">Kategorie öffnen</a>
+            </article>
+            <article class="card card--image">
+                <div class="card__badge">Handwerk</div>
+                <h3>Bauunternehmen & Gewerke</h3>
+                <p>Leistungslisten, Projektbilder, Angebotsanfrage.</p>
+                <div class="card__meta">3 Starter-Themes</div>
+                <a class="btn btn--ghost" href="portfolio.html#bau">Kategorie öffnen</a>
+            </article>
+            <article class="card card--image">
+                <div class="card__badge">Dienstleistung</div>
+                <h3>Beratung & Coaching</h3>
+                <p>Storytelling, Social Proof, Terminbuchung.</p>
+                <div class="card__meta">3 Starter-Themes</div>
+                <a class="btn btn--ghost" href="portfolio.html#beratung">Kategorie öffnen</a>
+            </article>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container section__header">
+            <p class="eyebrow">Rechtliches</p>
+            <h2>Kurze Hinweise</h2>
+            <p class="lede">Alle Themes verlinken standardmäßig die Pflichtseiten in jeder Fußzeile.</p>
+        </div>
+        <div class="container grid grid--2">
+            <article class="card">
+                <h3>Datenschutz</h3>
+                <p>DSGVO-konforme Formulare mit Einwilligungshinweisen.</p>
+                <a class="btn btn--ghost" href="datenschutz.html">Mehr erfahren</a>
+            </article>
+            <article class="card">
+                <h3>Impressum</h3>
+                <p>Platz für Firmen- und Kontaktinformationen.</p>
+                <a class="btn btn--ghost" href="impressum.html">Mehr erfahren</a>
+            </article>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container footer__content">
+        <div>
+            <div class="logo">AGENTUR_NAME</div>
+            <p>Webdesign & Digital Experiences</p>
+        </div>
+        <div class="footer__links">
+            <a href="leistungen.html">Themse</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="kontakt.html">Kontakt</a>
+        </div>
+        <div class="footer__legal">
+            <a href="impressum.html">Impressum</a>
+            <a href="datenschutz.html">Datenschutz</a>
+        </div>
+    </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

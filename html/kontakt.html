@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kontaktformular für Theme-Anfragen, Dateien und Projektwünsche.">
+    <title>Kontakt – AGENTUR_NAME</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="topbar">
+    <div class="container topbar__content">
+        <div class="logo" aria-label="AGENTUR_NAME">AGENTUR_NAME</div>
+        <nav class="nav" aria-label="Hauptnavigation">
+            <button class="nav__toggle" aria-expanded="false" aria-controls="nav-menu">Menü</button>
+            <ul id="nav-menu" class="nav__list">
+                <li><a class="nav__link" href="index.html">Start</a></li>
+                <li><a class="nav__link" href="leistungen.html">Themse & Leistungen</a></li>
+                <li><a class="nav__link" href="portfolio.html">Portfolio</a></li>
+                <li><a class="nav__link" href="prozess.html">Prozess</a></li>
+                <li><a class="nav__link" href="ueber-uns.html">Über uns</a></li>
+                <li><a class="nav__link" href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+        <a class="btn btn--ghost" href="kontakt.html">Projekt anfragen</a>
+    </div>
+</header>
+
+<main>
+    <section class="page-hero section--muted">
+        <div class="container page-hero__grid">
+            <div>
+                <p class="eyebrow">Kontakt</p>
+                <h1>Projekt anfragen oder Theme personalisieren lassen.</h1>
+                <p class="lede">Schicken Sie uns Ihr Anliegen. Wir melden uns innerhalb von 24 Stunden mit Terminvorschlägen.</p>
+            </div>
+            <div class="hero__card">
+                <p class="stat">Hotline</p>
+                <p class="caption">+49 (0)123 456789</p>
+                <p class="stat">E-Mail</p>
+                <p class="caption"><a href="mailto:info@agentur-domain.tld">info@agentur-domain.tld</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container contact">
+            <div>
+                <p class="eyebrow">Kontaktformular</p>
+                <h2>Kurzes Formular – wir übernehmen den Rest.</h2>
+                <p class="lede">Wählen Sie eine Kategorie, beschreiben Sie den Bedarf und laden Sie optional Dateien hoch.</p>
+                <ul class="contact__meta">
+                    <li><strong>E-Mail:</strong> <a href="mailto:info@agentur-domain.tld">info@agentur-domain.tld</a></li>
+                    <li><strong>Telefon:</strong> +49 (0)123 456789</li>
+                    <li><strong>Standort:</strong> STADT_NAME</li>
+                </ul>
+            </div>
+            <form class="form" aria-label="Kontaktformular">
+                <label>
+                    Ihr Name
+                    <input type="text" name="name" placeholder="Vor- und Nachname" required>
+                </label>
+                <label>
+                    E-Mail
+                    <input type="email" name="email" placeholder="info@agentur-domain.tld" required>
+                </label>
+                <label>
+                    Kategorie / Themse-Auswahl
+                    <select name="category" required>
+                        <option value="">Bitte wählen</option>
+                        <option value="cafe">Café / Restaurant</option>
+                        <option value="bau">Bauunternehmen / Handwerk</option>
+                        <option value="beratung">Beratung / Coaching</option>
+                        <option value="custom">Individuelle Website</option>
+                    </select>
+                </label>
+                <label>
+                    Anforderungen / Wünsche
+                    <textarea name="message" rows="4" placeholder="Ziele, Funktionen, Fristen" required></textarea>
+                </label>
+                <label>
+                    Dateien (optional)
+                    <input type="file" name="assets" aria-label="Datei-Upload">
+                </label>
+                <div class="form__row">
+                    <label class="checkbox">
+                        <input type="checkbox" required>
+                        <span>Ich stimme der Verarbeitung meiner Daten gemäß Datenschutz zu.</span>
+                    </label>
+                    <button type="submit" class="btn">Absenden</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section class="section section--muted">
+        <div class="container section__header">
+            <p class="eyebrow">FAQ</p>
+            <h2>Häufige Fragen.</h2>
+            <p class="lede">Wiederholung relevanter Fragen, global oder themsebezogen.</p>
+        </div>
+        <div class="container faq">
+            <details>
+                <summary>Kann ich das Design anpassen lassen?</summary>
+                <p>Ja. Wir übernehmen Branding, Farben, Schriften und passen Module nach Wunsch an.</p>
+            </details>
+            <details>
+                <summary>Wie lange dauert die Umsetzung?</summary>
+                <p>In der Regel 2–3 Wochen für ein Theme, inklusive Feedbackschleifen.</p>
+            </details>
+            <details>
+                <summary>Was kostet die Personalisierung?</summary>
+                <p>Die Kosten hängen vom Umfang ab. Wir senden Ihnen ein transparentes Angebot.</p>
+            </details>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container section__header">
+            <p class="eyebrow">Rechtliches</p>
+            <h2>Datenschutz & Einverständnis.</h2>
+            <p class="lede">Das Formular enthält DSGVO-Einwilligung und verweist auf die Pflichtseiten.</p>
+        </div>
+        <div class="container grid grid--2">
+            <article class="card">
+                <h3>Datenschutz</h3>
+                <p>Details zur Verarbeitung personenbezogener Daten.</p>
+                <a class="btn btn--ghost" href="datenschutz.html">Datenschutz lesen</a>
+            </article>
+            <article class="card">
+                <h3>Impressum</h3>
+                <p>Verantwortliche Stelle, Kontakt und Unternehmensinformationen.</p>
+                <a class="btn btn--ghost" href="impressum.html">Impressum öffnen</a>
+            </article>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container footer__content">
+        <div>
+            <div class="logo">AGENTUR_NAME</div>
+            <p>Webdesign & Digital Experiences</p>
+        </div>
+        <div class="footer__links">
+            <a href="leistungen.html">Themse</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="kontakt.html">Kontakt</a>
+        </div>
+        <div class="footer__legal">
+            <a href="impressum.html">Impressum</a>
+            <a href="datenschutz.html">Datenschutz</a>
+        </div>
+    </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
